@@ -6,17 +6,8 @@
  * @c: the character to be checked
  * Return: 1 if c is uppercase, 0 otherwise
  */
-int main(void)
+
+int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-
-	printf("%c: %d\n", c, _isuper(c));
-
-	c = 'a';
-
-	printf("%c: %\n", c, _isuper(c));
-
-	return (0);
+	return (c >= 'A' && c <= 'Z');
 }
