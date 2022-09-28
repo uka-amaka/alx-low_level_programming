@@ -21,6 +21,7 @@ int check_prime(int n, int resp)
  * is_prime_number - check if n is a prime number
  * @n: int
  * @n: int
+ * Return: check_prime
  */
 int is_prime_number(int n)
 {
