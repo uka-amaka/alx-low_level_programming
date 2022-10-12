@@ -5,7 +5,7 @@
  * print_opcodes - print the opcodes of this program
  * @a: address of the main function
  * @a: address of the main function
- *
+ * @n: ..........
  * Return: void
  */
 void print_opcodes(char *a, int n)
